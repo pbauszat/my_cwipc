@@ -1,21 +1,21 @@
 [submodule "cwipc_util"]
 	path = cwipc_util
-	url = ../cwipc_util
+	url = https://github.com/pbauszat/my_cwipc_util
 	branch = .
 	update = merge
 [submodule "cwipc_codec"]
 	path = cwipc_codec
-	url = ../cwipc_codec
+	url = https://github.com/cwi-dis/cwipc_codec
 	branch = .
 	update = merge
 [submodule "cwipc_realsense2"]
 	path = cwipc_realsense2
-	url = ../cwipc_realsense2
+	url = https://github.com/pbauszat/my_cwipc_realsense2
 	branch = .
 	update = merge
 [submodule "cwipc_kinect"]
 	path = cwipc_kinect
-	url = ../cwipc_kinect
+	url = https://github.com/cwi-dis/cwipc_kinect
 	branch = .
 	update = merge
 [submodule "vcpkg"]
@@ -23,4 +23,4 @@
 	url = https://github.com/microsoft/vcpkg
 [submodule "cwipc_orbbec"]
 	path = cwipc_orbbec
-	url = ../cwipc_orbbec
+	url = https://github.com/cwi-dis/cwipc_orbbec
