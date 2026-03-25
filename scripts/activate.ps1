@@ -33,15 +33,15 @@ $Env:PATH = $binDir + ";" + $Env:PATH
 Write-Output $Env:PATH
 & $buildDir/venv/Scripts/Activate.ps1
 # Install editable Python packages
-cd $topDir/cwipc_util/python
+Set-Location $topDir/cwipc_util/python
 & python -m pip install -e .
-cd $topDir/cwipc_codec/python
+Set-Location $topDir/cwipc_codec/python
 & python -m pip install -e .
-cd $topDir/cwipc_realsense2/python
+Set-Location $topDir/cwipc_realsense2/python
 & python -m pip install -e .
-cd $topDir/cwipc_kinect/python
+Set-Location $topDir/cwipc_kinect/python
 & python -m pip install -e .
-cd $topDir/cwipc_orbbec/python
+Set-Location $topDir/cwipc_orbbec/python
 & python -m pip install -e .
-cd $topDir
+Set-Location $topDir
 Pop-Location
