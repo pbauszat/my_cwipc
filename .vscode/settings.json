@@ -8,7 +8,7 @@
     ],
     "cmake.configureOnOpen": false,
     "python.analysis.typeCheckingMode": "basic",
-    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvironment": true,
     "files.associations": {
         "__bit_reference": "cpp",
         "__config": "cpp",
